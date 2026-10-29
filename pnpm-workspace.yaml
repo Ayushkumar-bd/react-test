@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@bangdb/dev-chat@0.1.0'

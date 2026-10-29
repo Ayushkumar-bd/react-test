@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@bangdb/web-sdk':
-        specifier: link:../../web-sdk
-        version: link:../../web-sdk
+      '@bangdb/dev-chat':
+        specifier: ^0.1.0
+        version: 0.1.0
       react:
         specifier: ^19.2.8
         version: 19.3.0
@@ -123,6 +123,9 @@ packages:
   '@babel/types@7.29.8':
     resolution: {integrity: sha512-Vj1jF3cPfxg7OAfoI7QnVKLoILlm2JF9pnVHrX8qx7AHMiYWT+NDAA7jChlNgRS4WTLc/fD1lXLmPixluj+3Gg==}
     engines: {node: '>=6.9.0'}
+
+  '@bangdb/dev-chat@0.1.0':
+    resolution: {integrity: sha512-627OtfSm8ngm3fDM65nHONj6LJhrhk3m0E7nJTVjAwn0eoAJCUVarr+4mu3qaaieA+qA00rVgZRZIzGGn3dB1Q==}
 
   '@cacheable/memory@2.2.0':
     resolution: {integrity: sha512-CTLKqLItRCEixEAewD3/j9DB3/o96gpTPD4eJ1v+DGOlxZRZncRQkGYqqnAGCscYd6RNeXfGeiuCphsPtqyIfQ==}
@@ -1039,6 +1042,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.29.7
       '@babel/helper-validator-identifier': 7.29.7
+
+  '@bangdb/dev-chat@0.1.0': {}
 
   '@cacheable/memory@2.2.0':
     dependencies:
